@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 6</title>
+</head>
+<body>
+    <input type="number" placeholder="Enter your Percentage">
+    <button onclick="checkPercentage()">Check</button>
+    <script>
+        //JavaScript program to print the grade of person using the following conditions
+        function checkPercentage(){
+        let percentage = document.querySelector("input").value;
+        switch (percentage){
+            case percentage://if percentage >85
+            if (percentage > 85){
+           alert("grade = A");
+            }
+            if (percentage <= 85 && percentage > 80){
+               alert("grade = A-");
+            }
+            if (percentage <= 80 && percentage > 70)
+            {
+                alert("grade = B");
+            }
+            if (percentage <= 70 && percentage > 60)//if %<=70 and >60
+            {
+                alert("grade = C")
+            }
+            if (percentage <= 60 && percentage > 40){
+                alert("grade = D");
+            }
+            if (percentage <= 40 && percentage <= 35){
+                alert("grade = Candidate Failed");
+            }
+        }
+    }
+    </script>
+</body>
+</html>

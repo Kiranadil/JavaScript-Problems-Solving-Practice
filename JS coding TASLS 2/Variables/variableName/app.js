@@ -7,7 +7,6 @@ function variableName1(){
 }
 
 function variableName2(){
-      a;
     console.log(a);
 }
 
