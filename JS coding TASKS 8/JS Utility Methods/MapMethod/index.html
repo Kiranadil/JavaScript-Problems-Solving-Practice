@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Method</title>
+</head>
+
+<body>
+    <script>
+        // PART A
+        let agesArray = [12, 45, 56, 4];
+        //Use map method to print all of the values and their indices.
+        agesArray.map((element, index) => {
+            document.write(index + " : " + element + " <br>");
+        });
+        //suppose b is the new array, then
+        let b = agesArray.map(multiply);
+        document.write(b + "<br>");
+        function multiply(x) {
+            return x * 10;
+        }
+
+        //PART B
+        let usersData = [
+            {
+                name: "Saeed",
+                lastName: "Ahmad",
+                school: "UoT",
+                profession: "engineer",
+            },
+
+            {
+                name: "Ali",
+                lastName: "Khan",
+                school: "TUM",
+                profession: "researcher",
+
+            }
+
+        ];
+        let d = usersData.map(test);
+        document.write(d);
+        function test(y) {
+            return y.name + " " + y.lastName + " " + y.school + " " + y.profession;
+        } rHTM
+        let a = document.getElementById("firstPerson").inneL
+    </script>
+</body>
+
+</html>
