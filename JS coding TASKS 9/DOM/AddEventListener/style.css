@@ -1,0 +1,11 @@
+body{
+    background-color: cadetblue;
+}
+button{
+    color: wheat;
+    background-color: crimson;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 28px;
+}
