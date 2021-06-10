@@ -1,0 +1,30 @@
+body{
+    margin: 0px 20px;
+    background-color: thistle;
+    
+}
+h1{
+    font-size: 40px;
+}
+input{
+    padding: 12px 20px;
+    border: 2px solid teal;
+    border-radius: 4px;
+    font-size: 15px;
+    display: block;
+    margin: 20px;
+}
+button{
+    border-radius: 9px;
+    background-color: teal;
+    height:50px ;
+    width: 100px;
+    font-size: 25px;
+    margin: 20px 10px;
+    display: block;
+}
+label{
+    font-size: 22px;
+    margin: 20px 10px;
+    padding: 20px 10px;
+}
